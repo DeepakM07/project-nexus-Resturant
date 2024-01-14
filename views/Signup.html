@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/signup.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="signup">
+          <img src="/images/img2.PNG" alt="logo" class="image-slide"/>
+        <form class="signupForm">
+          <h2>Join Our Foodie Community</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" required id="username" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" id="email" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" id="password" placeholder="Password" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-phone"></i>
+            <input type="tel" placeholder="Phone Number" required>
+        </div>
+
+          <button type="button" onclick="signup()" class="btn">Sign Up</button>
+          <p>Already have an account? <a href="/login">Login</a></p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <p>&copy; 2024 Restaurant Website</p>
+        </form>
+      </div>
+    </div>
+    <script src="/js/Script.js"></script>
+  </body>
+</html>
